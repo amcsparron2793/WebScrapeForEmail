@@ -50,7 +50,10 @@ py_ver_float = float(str(version_info.major) + '.' + str(version_info.minor))
 def main_func(dev=False):
     """ Main Program function. """
     if not dev:
+        # Main program code
         if isdir("../Misc_Project_Files/email_extraction"):
+            # main module is ../Misc_Project_Files/email_extraction/
+            # email_extraction/spiders/GeeksForGeeks_EmailScraper.py
             chdir("../Misc_Project_Files/email_extraction")
             system("scrapy crawl email_ex -o emails.csv")
     elif dev:

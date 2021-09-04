@@ -2,3 +2,6 @@ __pycache__
 /logs
 /.idea/
 /venv/
+/Misc_Project_Files/email_extraction/emails.csv
+/Misc_Project_Files/email_extraction/.google-cookie
+/Misc_Project_Files/no_doc_check

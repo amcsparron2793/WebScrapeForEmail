@@ -1,6 +1,9 @@
 #! python3
 """
-FTP/HTTP get remote files
+WebScrapeForEmail
+
+based on https://www.geeksforgeeks.org/web-scraper-for-extracting-emails-based-on-keywords-and-regions/?ref=gcse
+
 """
 
 

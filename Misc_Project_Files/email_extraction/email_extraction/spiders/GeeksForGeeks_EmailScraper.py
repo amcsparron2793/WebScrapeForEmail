@@ -1,3 +1,11 @@
+#! python3
+"""
+GeeksForGeeks_EmailScraper.py
+
+based on https://www.geeksforgeeks.org/web-scraper-for-extracting-emails-based-on-keywords-and-regions/?ref=gcse
+"""
+
+# imports
 import scrapy
 from scrapy.spiders import CrawlSpider, Request
 from googlesearch import search
